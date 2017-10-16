@@ -1002,15 +1002,9 @@ body {
 #sociallinks li {
   display: inline-block;
 }
-#sociallinks li:after {
-  content: ", ";
-}
-#sociallinks li:last-child:after {
-  content: "";
-}
-#sociallinks li:nth-last-child(2):after {
-  content: " and ";
-}
+
+
+
 .post-list {
   padding: 0;
 }
